@@ -13,7 +13,7 @@ import LearnLayout from "../pages/learn/Layout";
 import ThinkingInReactPage from "../pages/learn/ThinkingInReact";
 import PageNotFound from "../pages/PageNotFound";
 
-const isLoggedIn = true;
+const isLoggedIn = false;
 const userData: { email: string } | null = isLoggedIn ? { email: "email@gmail.com" } : null;
 
 const router = createBrowserRouter(
