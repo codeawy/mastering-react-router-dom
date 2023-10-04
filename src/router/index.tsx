@@ -7,11 +7,11 @@ import ContactPage from "../pages/Contact";
 import ContributePage from "../pages/Contribute";
 import RootLayout from "../pages/Layout";
 import LoginPage from "../pages/Login";
+import PageNotFound from "../pages/PageNotFound";
 import QuickStartPage from "../pages/learn";
 import InstallationPage from "../pages/learn/Installation";
 import LearnLayout from "../pages/learn/Layout";
 import ThinkingInReactPage from "../pages/learn/ThinkingInReact";
-import PageNotFound from "../pages/PageNotFound";
 
 const isLoggedIn = false;
 const userData: { email: string } | null = isLoggedIn ? { email: "email@gmail.com" } : null;
